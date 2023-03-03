@@ -29,7 +29,6 @@ body {
     border-radius: 10px;
     border-right: solid black;
     background-color: rgba(236, 233, 233, 0.99);
-
 }
 
 .sidebar h1 {
@@ -136,19 +135,18 @@ html{
 }
 .box1{
     position: absolute;
-    display: inline-block;
+    display: flex;
     width: 85%;
     height: 100%;
     left: 15%;
 
 }
 #product-vision{
-    height: 400px;
-    width: 1100px;
+    height: 60%;
+    width: 85%;
     position: absolute;
     margin: 100px;
-    top: 5%;
-    font-size: 23px;
+    font-size: 22px;
     font-style: italic;
     color: black;
     font-family: "Arial Black", serif;
@@ -173,7 +171,7 @@ html{
     color: black;
     font-size: 17px;
     position: absolute;
-    right: 2%;
+    right: 9%;
     bottom: 2%;
     border: solid limegreen;
     border-radius: 7px;
@@ -181,16 +179,13 @@ html{
 .img-container-1{
     position: absolute;
     display: flex;
-    flex-direction: row;
+    left: 8%;
     align-content: center;
     justify-content: center;
-    width: 85%;
+    width: 100%;
     height: 100%;
-    top: 0;
-    left: 15%;
 }
 #frontimage{
-    display: inline;
     max-height: 100%;
     max-width: 100%;
     user-select: none;
@@ -239,7 +234,6 @@ html{
     height: 100%;
     text-align: center;
     padding: 20px 50px;
-    box-sizing: border-box;
     transform: rotateY(90deg);
     transition: all 0.5s ease-in-out 0s;
 }
@@ -281,7 +275,6 @@ html{
     height: 100%;
     text-align: center;
     padding: 20px 50px;
-    box-sizing: border-box;
     transform: rotateY(90deg);
     transition: all 0.5s ease-in-out 0s;
 }
@@ -325,7 +318,6 @@ html{
     height: 100%;
     text-align: center;
     padding: 20px 50px;
-    box-sizing: border-box;
     transform: rotateY(90deg);
     transition: all 0.5s ease-in-out 0s;
 }
@@ -373,7 +365,6 @@ html{
     height: 100%;
     text-align: center;
     padding: 20px 50px;
-    box-sizing: border-box;
     transform: rotateY(90deg);
     transition: all 0.5s ease-in-out 0s;
 }
@@ -670,15 +661,13 @@ form{
     width: 400px;
     background-color: rgb(217, 217, 217);
     position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 75%;
+    top: 13%;
+    left: 55%;
     border-radius: 10px;
-    backdrop-filter: blur(10px);
     border: 2px solid grey;
     padding: 50px 35px;
 }
-form *{
+form*{
     font-family: 'Arial Black',sans-serif;
     color: black;
     outline: none;
@@ -746,11 +735,9 @@ button{
     width: 400px;
     background-color: rgb(217, 217, 217);
     position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 40%;
+    top: 13%;
+    left: 25%;
     border-radius: 10px;
-    backdrop-filter: blur(10px);
     border: 2px solid grey;
     padding: 50px 35px;
 }
